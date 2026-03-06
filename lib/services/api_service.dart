@@ -5,8 +5,7 @@ import 'package:http/http.dart' as http;
 import '../main.dart'; // TimetableInfoを使うため
 
 class ApiService {
-  // ★ ngrokのURLを貼り付けます（最後の / は不要）
-  static const String serverUrl = 'https://arlyne-saxicoline-connately.ngrok-free.dev';
+  static const String serverUrl = 'URL';
 
   static Future<List<TimetableInfo>> searchClasses({
     required String facultyCode,
